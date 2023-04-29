@@ -1,7 +1,7 @@
 
 This is my neovim config.
 
-## Dependencies;
+### Dependencies
 Software uses from packer:
 
 * wbthomason/packer.nvim
