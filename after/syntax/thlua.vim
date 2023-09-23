@@ -1,13 +1,5 @@
 " Modified from syntax/lua.vim in vim
-" origin file info:
-  " Vim syntax file
-  " Language:	Lua 4.0, Lua 5.0, Lua 5.1 and Lua 5.2
-  " Maintainer:	Marcus Aurelius Farias <masserahguard-lua 'at' yahoo com>
-  " First Author:	Carlos Augusto Teixeira Mendes <cmendes 'at' inf puc-rio br>
-  " Last Change:	2012 Aug 12
-  " Options:	lua_version = 4 or 5
-  "		lua_subversion = 0 (4.0, 5.0) or 1 (5.1) or 2 (5.2)
-  "		default 5.2
+" Vim syntax file
 
 " quit when a syntax file was already loaded
 if exists("b:current_syntax")
@@ -94,7 +86,7 @@ syn region luaLoopBlock transparent matchgroup=luaRepeat start="\<for\>" end="\<
 syn keyword luaIn contained in
 
 " other keywords
-syn keyword luaStatement return local break const
+syn keyword luaStatement return local break const continue
 if lua_version > 5 || (lua_version == 5 && lua_subversion >= 2)
   syn keyword luaStatement goto
   syn match luaLabel "::\I\i*::"

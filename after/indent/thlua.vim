@@ -1,10 +1,5 @@
 " Modified from indent/lua.vim in vim
-" origin file info:
-	" Vim indent file
-	" Language:	Lua script
-	" Maintainer:	Marcus Aurelius Farias <marcus.cf 'at' bol.com.br>
-	" First Author:	Max Ischenko <mfi 'at' ukr.net>
-	" Last Change:	2017 Jun 13
+" Vim indent file
 
 " Only load this indent file when no other was loaded.
 if exists("b:did_indent")
