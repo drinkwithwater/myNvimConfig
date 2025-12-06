@@ -72,7 +72,7 @@ fun! s:GetVimCmdOutput(cmd)
   endtry
 
   " Restore the original locale
-  exec ":lan mes " . old_lang
+  " exec ":lan mes " . old_lang
 
 "  call Dret("GetVimCmdOutput <".output.">")
   return output

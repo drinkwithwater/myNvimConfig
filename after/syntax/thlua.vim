@@ -366,7 +366,7 @@ hi def link luaLabel		Label
 
 syn keyword thluaKeyword let
 
-syn match hintoper1 "[@][!>?]\="
+syn match hintoper1 "[@$][!>?]\="
 syn match hintoper2 "[!]"
 
 hi def link hintoper1 Typedef
